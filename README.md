@@ -24,7 +24,7 @@ This project showcases my **SQL problem-solving skills** through an in-depth ana
 -  Addressed **null values** and ensured the data's **integrity and reliability** for accurate analysis.  
 
 ### 4️⃣ **Business Problems Solved**  
--  Solved **17 real-world business challenges** using advanced SQL queries, helping Zomato gain actionable insights.  
+-  Solved **17 real-world business challenges** using advanced SQL queries.  
 
 ---
 
