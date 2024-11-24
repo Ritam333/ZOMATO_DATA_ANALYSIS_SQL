@@ -12,4 +12,18 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 - **Data Cleaning:** Handling null values and ensuring data integrity.
 - **Business Problems:** Solving 17 specific business problems using SQL queries.
 
-## ERD -- (https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL/blob/main/Screenshot%202024-11-24%20195149.png)
+## ERD -- (https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL/blob/main/ERD.png) 
+
+
+
+# TOPIC WE WILL LEARN HERE 
+--- DATABASE CREATION AND TABLE DESIGN
+--- AGGREGATE FUNCTION AND GROUPING FUNCTION
+--- JOIN
+--- WINDOW FUNCTION
+--- DATE AND TIME FUNCTION
+--- DATA SEGMENTATION
+--- SUBQUERY
+-----------------------------------------------------------------------------------------------
+Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
+
