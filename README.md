@@ -17,13 +17,13 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 
 
 # TOPIC WE WILL LEARN HERE 
-** DATABASE CREATION AND TABLE DESIGN
-** AGGREGATE FUNCTION AND GROUPING FUNCTION
-** JOIN
-** WINDOW FUNCTION
-** DATE AND TIME FUNCTION
-** DATA SEGMENTATION
-** SUBQUERY
+- **DATABASE CREATION AND TABLE DESIGN**
+- **AGGREGATE FUNCTION AND GROUPING FUNCTION**
+- **JOIN**
+- **WINDOW FUNCTION**
+- **DATE AND TIME FUNCTION**
+- **DATA SEGMENTATION**
+- **SUBQUERY**
 -----------------------------------------------------------------------------------------------
 Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
 
