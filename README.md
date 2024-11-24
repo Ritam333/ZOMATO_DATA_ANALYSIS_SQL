@@ -12,4 +12,4 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 - **Data Cleaning:** Handling null values and ensuring data integrity.
 - **Business Problems:** Solving 17 specific business problems using SQL queries.
 
-## ERD -- 
+## ERD -- (https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL/blob/main/Screenshot%202024-11-24%20195149.png)
