@@ -14,17 +14,17 @@ This project showcases my **SQL problem-solving skills** through an in-depth ana
 ## 🗂️ **Project Structure**  
 
 ### 1️⃣ **Database Setup**  
-- 🚀 Created the `zomato_db` database.  
-- 🛠️ Designed and structured the necessary tables to reflect Zomato's operations.  
+-  Created the `zomato_db` database.  
+-  Designed and structured the necessary tables to reflect Zomato's operations.  
 
 ### 2️⃣ **Data Import**  
-- 📥 Inserted comprehensive sample data into the tables for realistic analysis.  
+-  Inserted comprehensive sample data into the tables for realistic analysis.  
 
 ### 3️⃣ **Data Cleaning**  
-- 🧹 Addressed **null values** and ensured the data's **integrity and reliability** for accurate analysis.  
+-  Addressed **null values** and ensured the data's **integrity and reliability** for accurate analysis.  
 
 ### 4️⃣ **Business Problems Solved**  
-- 💡 Solved **17 real-world business challenges** using advanced SQL queries, helping Zomato gain actionable insights.  
+-  Solved **17 real-world business challenges** using advanced SQL queries, helping Zomato gain actionable insights.  
 
 ---
 
@@ -61,35 +61,31 @@ The ERD visually represents the relationships between tables in the database.
 
 ---
 
+
 ## 🚀 **Highlights of the Analysis**  
 
-- 🌟 Identified the **top-performing restaurants** and their most ordered dishes.  
-- 🕑 Analyzed **peak order times** and seasonal trends to improve delivery strategies.  
-- 🎯 Segmented customers to identify **high-value users** and improve retention efforts.  
-- 📊 Generated insights into **popular cuisines**, helping Zomato fine-tune its offerings.  
+- 🌟 Identified the **most frequently ordered dishes** and analyzed **order frequency**.  
+- 🕑 Analyzed **restaurant revenue** and **ranking** based on sales.  
+- 🎯 Segmented customers into **gold** and **silver** based on spending for targeted marketing strategies.  
 
 ---
 
 ## 📚 **Learning Outcomes**  
 
-Through this project, I strengthened my understanding of:  
-
-- Crafting **optimized queries** for large datasets.  
-- Using **advanced SQL techniques** to solve business problems.  
-- Cleaning and preparing raw data for effective analysis.  
-- Leveraging SQL for **data-driven decision-making**.  
+- Developed queries to analyze **order cancellations** and **rider ratings**.  
+- Gained insights into **customer lifetime value** and **order frequency patterns**.  
+- Applied **revenue growth** analysis for restaurants and **sales trend comparisons** over time.  
 
 ---
 
 ## 🔥 **Let’s Dive In**  
 
 Want to explore the full project?  
-📂 [Check out the repository](https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL) and start learning SQL in action!  
+📂 [Check out the repository](https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL) and start the action!  
 
 ---  
 
-🌟 **Skills demonstrated in this project:**  
-SQL, Data Cleaning, Business Analysis, Query Optimization, Problem-Solving  
+
 
 ✨ Feedback or suggestions? Feel free to share! 😊  
 
