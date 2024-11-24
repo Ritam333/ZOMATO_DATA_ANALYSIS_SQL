@@ -57,16 +57,16 @@ This project showcases my **SQL problem-solving skills** through an in-depth ana
 
 The ERD visually represents the relationships between tables in the database.  
 
-👉 [Click here to view the ERD](https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL/blob/main/ERD.png)  
+ [Click here to view the ERD](https://github.com/Ritam333/ZOMATO_DATA_ANALYSIS_SQL/blob/main/ERD.png)  
 
 ---
 
 
 ## 🚀 **Highlights of the Analysis**  
 
-- 🌟 Identified the **most frequently ordered dishes** and analyzed **order frequency**.  
-- 🕑 Analyzed **restaurant revenue** and **ranking** based on sales.  
-- 🎯 Segmented customers into **gold** and **silver** based on spending for targeted marketing strategies.  
+-  Identified the **most frequently ordered dishes** and analyzed **order frequency**.  
+-  Analyzed **restaurant revenue** and **ranking** based on sales.  
+-  Segmented customers into **gold** and **silver** based on spending for targeted marketing strategies.  
 
 ---
 
@@ -85,6 +85,7 @@ Want to explore the full project?
 
 ---  
 
+**Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:**
 
 
 ✨ Feedback or suggestions? Feel free to share! 😊  
