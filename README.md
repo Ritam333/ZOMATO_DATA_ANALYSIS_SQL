@@ -130,3 +130,34 @@ This table contains information about delivery riders.
 | `sign_up`         | `DATE`          | Date of rider signup.                          |
 
 ---
+### 4. **Restaurants Table**
+This table stores information about restaurants, including their unique identifiers, names, locations, and operating hours.
+
+| Column Name       | Data Type           | Description                                     |
+|-------------------|---------------------|-------------------------------------------------|
+| `restaurant_id`   | `INT` (Primary Key) | Unique identifier for the restaurant.          |
+| `restaurant_name` | `VARCHAR(255)`      | Name of the restaurant.                        |
+| `city`            | `VARCHAR(100)`      | City where the restaurant is located.          |
+| `opening_hours`   | `VARCHAR(50)`       | Operating hours of the restaurant.             |
+
+---
+
+### 5. **Customers Table**
+This table stores information about customers, including their unique identifiers, names, and registration dates.
+
+| Column Name       | Data Type           | Description                                     |
+|-------------------|---------------------|-------------------------------------------------|
+| `customer_id`     | `INT` (Primary Key) | Unique identifier for the customer.            |
+| `customer_name`   | `VARCHAR(255)`      | Name of the customer.                          |
+| `reg_date`        | `DATE`              | Registration date of the customer.             |
+
+---
+## **Relationships**
+
+- **Deliveries Table**:
+  - `order_id` is a foreign key referencing the `Orders Table`.
+  - `rider_id` is a foreign key referencing the `Riders Table`.
+
+- **Orders Table**:
+  - `customer_id` is a foreign key referencing the  `Customers Table` .
+  - `restaurant_id` is a foreign key referencing the  `Restaurants Table` .
