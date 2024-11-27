@@ -89,4 +89,44 @@ Want to explore the full project?
 
 
 
+## **Database Tables**
 
+### 1. **Deliveries Table**
+This table captures information about deliveries associated with orders and the riders handling them.
+
+| Column Name       | Data Type       | Description                                     |
+|-------------------|-----------------|-------------------------------------------------|
+| `delivery_id`     | `INT` (Primary Key) | Unique identifier for the delivery.            |
+| `order_id`        | `INT` (Foreign Key)`orders.order_id` | Reference to the order being delivered. |
+| `delivery_status` | `VARCHAR(20)`   | Status of the delivery (e.g., completed, pending). |
+| `delivery_time`   | `INTERVAL`      | Time taken for delivery.                       |
+| `rider_id`        | `INT` (Foreign Key)`riders.rider_id` | Reference to the rider handling the delivery. |
+
+---
+
+### 2. **Orders Table**
+This table stores details about customer orders placed with restaurants.
+
+| Column Name       | Data Type       | Description                                     |
+|-------------------|-----------------|-------------------------------------------------|
+| `order_id`        | `INT` (Primary Key) | Unique identifier for the order.             |
+| `customer_id`     | `INT`           | Reference to the customer placing the order.   |
+| `restaurant_id`   | `INT`           | Reference to the restaurant fulfilling the order. |
+| `order_item`      | `TEXT`          | Item(s) ordered.                               |
+| `order_date`      | `DATE`          | Date of the order.                             |
+| `order_time`      | `TIME`          | Time of the order.                             |
+| `order_status`    | `VARCHAR(20)`   | Status of the order (e.g., completed, canceled). |
+| `total_amount`    | `DECIMAL(10, 2)` | Total cost of the order.                      |
+
+---
+
+### 3. **Riders Table**
+This table contains information about delivery riders.
+
+| Column Name       | Data Type       | Description                                     |
+|-------------------|-----------------|-------------------------------------------------|
+| `rider_id`        | `INT` (Primary Key) | Unique identifier for the rider.            |
+| `rider_name`      | `VARCHAR(100)`  | Name of the rider.                             |
+| `sign_up`         | `DATE`          | Date of rider signup.                          |
+
+---
